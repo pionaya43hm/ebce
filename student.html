@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta para Estudiantes</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta para Estudiantes</h1>
+        <form id="student-survey">
+            <label for="student-name">¿Cuál es tu nombre?</label>
+            <input type="text" id="student-name" required>
+
+            <label for="student-age">¿Qué edad tienes?</label>
+            <input type="text" id="student-age" required>
+
+            
+            <label for="student-age">¿Cuantos tiempo  has estado aprendiedndo guarani?</label>
+            <input type="text" id="student-age" required>
+
+            
+            <label for="student-age">¿Que te motivo aprender el lenguaje guarani</label>
+            <input type="text" id="student-age" required>
+
+            <label for="student-age">¿Cual es tu metodo preferido para aprender el guarani?</label>
+            <input type="text" id="student-age" required>
+
+            
+            <label for="student-age">¿Que aspectos del guarani encuentras mas dificiles de aprender?</label>
+            <input type="text" id="student-age" required>
+
+
+            <label for="student-name">¿Como te sientes al usar el guarani  en conversaciones?</label>
+            <input type="text" id="student-name" required>
+
+            <label for="student-age">¿Que temas o vocabulario  te gustaría aprender mas en  guarani</label>
+            <input type="text" id="student-age" required>
+
+            
+            <label for="student-age">¿Que sugerencias tienes para mejolrar el aprendizaje del guarani en tu tu institucion</label>
+            <input type="text" id="student-age" required>
+
+            <label>¿Cómo  evaluas la calidad de la enseñamnza  que has recibido en guarani</label>
+            <select id="student-level" required>
+                <option value="">Selecciona la calidad</option>
+                <option value="principiante">muy buena</option>
+                <option value="intermedio">buena</option>
+                <option value="avanzado">regular</option>
+                <option value="avanzado">mala</option>
+            </select>
+
+
+            
+
+            <label>¿Cómo calificarías tu nivel de conocimiento del guaraní?</label>
+            <select id="student-level" required>
+                <option value="">Selecciona un nivel</option>
+                <option value="principiante">Principiante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select>
+
+            <label>¿Qué aspectos del guaraní te gustaría mejorar?</label>
+            <textarea id="student-improvements" rows="4" required></textarea>
+
+            <label>¿Tienes algún comentario adicional?</label>
+            <textarea id="student-comments" rows="4" required></textarea>
+
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+        <a href="index.html" class="back-button">Volver</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

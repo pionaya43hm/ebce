@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta para Maestros</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta para Maestros</h1>
+        <form id="teacher-survey">
+            <label for="teacher-name">¿Cuál es tu nombre?</label>
+            <input type="text" id="teacher-name" required>
+
+            <label>¿Qué materias enseñas?</label>
+            <input type="text" id="teacher-subjects" required>
+
+
+            <label>¿Qué recursos materiales utiliza en  su clases de guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿has visto una  mejora en sus estudiantes?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿cree que  hay suficiente apoyo institucional para la enseñanza del guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿como motiva asus estudiantes para aprender el guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿Que piensas de esta manera de aprender el guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿Que piensas sobre tus estudiante al momento   de aprender el lenguaje guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿que te parece el lenguaje guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+            <label>¿Que sugerencias tiene  para mejorar la enseñanza de guarani?</label>
+            <input type="text" id="teacher-subjects" required>
+
+
+            <label>¿Cómo evalúas el interés de tus estudiantes en el guaraní?</label>
+            <select id="teacher-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">Alto</option>
+                <option value="medio">Medio</option>
+                <option value="bajo">Bajo</option>
+            </select>
+
+            <label>¿Qué aspectos del guaraní consideras que se deben mejorar?</label>
+            <textarea id="teacher-improvements" rows="4" required></textarea>
+
+            <label>Comentarios adicionales:</label>
+            <textarea id="teacher-comments" rows="4" required></textarea>
+
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+        <a href="index.html" class="back-button">Volver</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

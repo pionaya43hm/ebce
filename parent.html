@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta para Padres</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta para Padres</h1>
+        <form id="parent-survey">
+            <label for="parent-name">¿Cuál es tu nombre?</label>
+            <input type="text" id="parent-name" required>
+
+            <label>¿Cuántos hijos tienes?</label>
+            <input type="text" id="parent-kids" required>
+
+            <label>¿Apoyas asu hijo/a en el aprendizaje de guarani</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">si</option>
+                <option value="medio">no</option>
+                <option value="bajo">a veces</option>
+            </select>
+
+            <label for="parent-name">¿que desafios a observado en su hijo/a al aprender guarani</label>
+            <input type="text" id="parent-name" required>
+
+            <label>¿Que actividades le gustaria que la escuela ofreciera para fomentar el aprendikzaje en guarani?</label>
+            <input type="text" id="parent-kids" required>
+
+            
+            <label>¿Apoyas asu hijo/a en el aprendizaje de guarani?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">si</option>
+                <option value="medio">no</option>
+                <option value="bajo">a veces</option>
+            </select>
+
+            <label>¿Estas  dispuesto a participar  en actividades escolares relacionados con el guarani?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">si</option>
+                <option value="medio">no</option>
+                <option value="bajo">talvez</option>
+            </select>
+
+            
+            <label>¿Que impoprtancia le da a la enseñanza de la cultura guarani?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">muy  importante</option>
+                <option value="medio">importante</option>
+                <option value="bajo">poco importante</option>
+            </select>
+
+            
+            <label>¿Que recursos utiliza  para ayudar asu hijo/a a aprenderel guarani?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">libros</option>
+                <option value="medio">paginas</option>
+                <option value="bajo">conversaciones</option>
+            </select>
+
+            
+            <label>¿Que  tan informado esta sobre el curriculo de guarani en la escuela de su hijo/a?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">bien  informado</option>
+                <option value="medio">algo informado</option>
+                <option value="bajo">poco informado</option>
+            </select>
+
+
+
+            <label>¿Cómo calificarías el interés de tus hijos en el guaraní?</label>
+            <select id="parent-interest" required>
+                <option value="">Selecciona una opción</option>
+                <option value="alto">Alto</option>
+                <option value="medio">Medio</option>
+                <option value="bajo">Bajo</option>
+            </select>
+
+            <label>¿Qué crees que se podría mejorar en la enseñanza del guaraní?</label>
+            <textarea id="parent-improvements" rows="4" required></textarea>
+
+            <label>Comentarios adicionales:</label>
+            <textarea id="parent-comments" rows="4" required></textarea>
+
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+        <a href="index.html" class="back-button">Volver</a>
+    </div>
+    <script src="crea.js"></script>
+</body>
+</html>
